@@ -1,6 +1,6 @@
-#include "greeting.hpp"
+#include <iostream>
 
-int int main(int argc, const char** argv) {
-    greeting::greet();
+int main(int argc, const char** argv) {
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
